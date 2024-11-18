@@ -9,8 +9,6 @@ api-key-scanner/
 
 ### Step 2: The Python Script (`api_key_scanner.py`)
 
-This will be the main script for your project. You can copy and paste your existing code into this file:
-
 ```python
 import requests
 import re
@@ -131,8 +129,6 @@ if __name__ == "__main__":
 
 ### Step 3: The `README.md` File
 
-Create a `README.md` file to provide documentation for users of your repository. Here's an example README content:
-
 ```markdown
 # API Key Scanner
 
@@ -198,11 +194,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 To specify the dependencies for your project, create a `requirements.txt` file:
 
-```
 requests==2.28.1
 ```
-
-This will ensure that when other people clone your repository, they can install the necessary dependencies using `pip install -r requirements.txt`.
+```
 
 ### Step 5: Push to GitHub
 
@@ -217,7 +211,3 @@ git branch -M main
 git remote add origin https://github.com/shahram8708/API-Key-Scanner.git
 git push -u origin main
 ```
-
-### Conclusion
-
-Once you push your project to GitHub with the provided files, others will be able to clone it, configure it with their GitHub credentials, and start scanning repositories for potential API keys.
